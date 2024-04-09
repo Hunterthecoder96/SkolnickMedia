@@ -1,0 +1,163 @@
+.home_moto{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:rgb(247, 245, 245);
+    max-width:600px; 
+    text-align: center; 
+}
+/* }"https://visme.co/blog/wp-content/uploads/2022/05/The-7-Key-Marketing-Principles-and-How-to-Apply-Them-Thumbnail.jpg" */
+
+
+.home_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    width: 100%;
+    /* z-index:-1; */
+    top:0;
+    left:0;
+  position: fixed;
+    height: 600px;
+    background-size: cover;
+    background-image: url("../assets/smc logo.png");
+    /* Linear gradient with black tint */
+    /* background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../assets/smc logo.png"); */
+    /* Background size and positioning properties */
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Blend mode to combine the image and tint color */
+    background-blend-mode: multiply;
+  }
+  .home_container > button{
+    margin-top: 295px;
+    padding: 17px 35px;
+    background-color: #808fb1;
+    border-radius: 10px;
+    color: white;
+  }
+  .homebottom{
+    padding:60px 0px 30px;
+    display: flex;
+    background-color: white;
+   
+  }
+  .bottom-container{
+    position:relative;
+    top:69vh;
+  }
+  .block-quote{
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #eee;
+    margin-left: 50px;
+    max-width: 650px;
+    
+    
+  }
+  h3{
+    font-family: "Roboto Slab", "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 30px;
+    word-wrap: break-word;
+    color: #808fb1;
+  }
+
+  .contact-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 5px solid #eee;
+    border-left: 5px solid #eee;
+    margin: 0 0 20px;
+  }
+  .contact-block >h3{
+    padding: 0 20px 0;
+  }
+  .contact-block >p{
+    text-align: center;
+    padding:2px;
+  }
+  .contact-block>img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
+  }
+
+
+  /* tips section */
+  .marketing-tips{
+    display: flex;
+   
+    justify-content: space-between;
+    /* margin-left: 110px;
+    margin-right: 110px; */
+    background-color: white;
+    width: 100vw;
+  
+  }
+  .tip{
+    max-width: 200px;
+
+  }
+  .tip-head{
+    text-align: center;
+    background-color: rgb(204, 204, 204);
+    padding-top:20px ;
+    padding-bottom: 20px;
+    box-shadow: 10px 10px 10px black;
+  }
+
+  .tip >h4{
+    font-size: 18px;
+    font-family: "Roboto Slab", "Times New Roman", serif;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  .tip>a{
+    color:rgb(133, 128, 167);
+    text-decoration: none;
+  }
+  .readmore:hover{
+color:#bdbdbd
+  }
+
+  .footer-header{
+    color:white;
+  }
+
+  .description{
+    font-family: "Roboto Slab", "Times New Roman", serif;
+    color: white;
+  }
+
+  /* footer */
+
+  .footer-container {
+    background-image: url("http://new.skolnickmedia.com/wp-content/uploads/2017/12/AdobeStock_81420158.jpeg");
+    background-size: cover; /* Adjust background size */
+    background-position: center; /* Center the background image */
+    color: #fff; /* Text color */
+    padding: 40px; /* Add padding for spacing */
+    text-align: center; /* Center align text */
+  }
+  
+  .footer-header {
+    font-size: 32px; /* Increase font size for header */
+    margin-bottom: 20px; /* Add spacing below header */
+  }
+  
+  .description {
+    font-size: 18px; /* Adjust font size for description */
+    margin-top: 20px; /* Add spacing above description */
+  }
+  
