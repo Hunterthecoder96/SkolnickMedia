@@ -1,0 +1,86 @@
+/* About.css */
+
+.about-container {
+
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.history-container {
+    max-width: 600px;
+    padding-top:100px
+}
+
+.history-container p {
+    color: #808fb1; /* Same font color */
+    font-size: 32px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.history-container span {
+    color: #3c4858; /* Same font color */
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.bethPhoto {
+    
+    height: auto; /* Adjusted height for aspect ratio */
+    margin-right: 24px;
+}
+
+.lower-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.lower-container > div {
+    flex: 1;
+    margin-bottom: 30px; /* Increased margin for separation */
+}
+
+.lower-container p {
+    font-size: 24px;
+    color: #808fb1; /* Same font color */
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px; /* Adjusted margin for separation */
+}
+
+.lower-container ol {
+    padding-left: 20px;
+}
+
+.lower-container ol li {
+    margin-bottom: 10px;
+}
+
+.call-us {
+    margin-top: 30px;
+}
+
+.call-us p {
+    font-size: 24px;
+    color: #808fb1; /* Same font color */
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px; /* Adjusted margin for separation */
+}
+
+.call-us span {
+    display: block;
+    color: #3c4858; /* Same font color */
+    font-size: 20px;
+    line-height: 1.6;
+}

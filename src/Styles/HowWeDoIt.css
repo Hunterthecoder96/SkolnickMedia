@@ -1,0 +1,51 @@
+/* HowWeDoIt.css */
+
+.HowWe-container {
+
+    padding: 100px 20px; /* Added padding for spacing */
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.section {
+    margin-bottom: 50px; /* Added margin for separation between sections */
+}
+
+.section-heading {
+    color: #808fb1; /* Same font color */
+    font-size: 32px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px; /* Increased margin for separation */
+}
+
+.section-content {
+    color: #3c4858; /* Same font color */
+    font-size: 20px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.6;
+}
+
+.highlight {
+    color: #f27d2d; /* Highlight color */
+    font-weight: bold; /* Added font weight for emphasis */
+}
+
+.contact {
+    margin-top: 50px; /* Added margin for separation */
+}
+
+.contact h3 {
+    color: #808fb1; /* Same font color */
+    font-size: 24px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px; /* Increased margin for separation */
+}
+
+.contact p {
+    color: #3c4858; /* Same font color */
+    font-size: 20px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.6;
+}

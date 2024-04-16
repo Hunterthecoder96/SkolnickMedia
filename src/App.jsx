@@ -9,6 +9,7 @@ import RadioBlog from "./Components/BlogPosts/RadioBlog"
 import TvBlog from "./Components/BlogPosts/TvBlog"
 import DirectmailBlog from "./Components/BlogPosts/DirectmailBlog"
 import SmcHistory from "./Components/BlogPosts/SmcHistory"
+import HowWeDoIt from "./Components/HowWeDoIt"
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Route path="/TVforyou" element={<TvBlog />} />
       <Route path="/DirectMail" element={<DirectmailBlog />} />
       <Route path="/SMC" element={<SmcHistory/>}/>
+      <Route path="/HowWeDoit" element={<HowWeDoIt />} />
 
       <Route path="/" element={<Home />}/>
       <Route path="/portfolio" element={<Portfolio/>}/>

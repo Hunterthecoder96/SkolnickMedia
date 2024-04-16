@@ -12,8 +12,7 @@ export default function Nav(){
         <Link className="option" to="/">Home</Link>
         <Link className="option" to="/portfolio">Portfolio</Link>
         <Link className="option" to="/about">Who we are</Link>
-        <p className="option">What We Do</p>
-        <p className="option">How We Do it</p>
+        <Link className="option" to="/HowWeDoit">How We Do it</Link>
         <p className="option">Contact</p>
         </div>
         </div>

@@ -11,7 +11,7 @@ export default function Portfolio(){
               <div className="portfolio">
       <h1>My Portfolio</h1>
       <Project
-        title="Project 1"
+        title="My Plumber "
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         image="project1.jpg"
       />

@@ -4,13 +4,16 @@ import "../Styles/Home.css"
 import Logo from "../assets/smc logo.png"
 import ContactPhoto from "../assets/skolnickmediacontact.jpg"
 
+
 export default function Home(){
+
+    
 
     return(
         <>
         <div className="home_container">
-            {/* <h1 className="home_moto">Unleash Growth through connections: Your Success is our Story!</h1> */}
-            <button>How We Do It</button>
+            <h1 className="home_moto">Unleash Growth through connections: Your Success is our Story!</h1>
+           <Link to="/HowWeDoit"><button>How We Do It</button></Link> 
         </div>
         <div className="bottom-container">
         <div className="homebottom">
